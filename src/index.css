@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: #000300;
-
-
+  background-color: #09160a;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .card {
   transition: opacity 0.3s;
+
 }
 
 .card:hover .card-image {
@@ -18,4 +20,23 @@ body {
 }
 .card:hover .card-title {
   text-decoration: underline; /* change to Shadow */
+}
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+.social {
+  color: #F5F5F5;
+}
+
+.social:hover {
+  color: #4A5564; /* Change to the color you want on hover */
 }

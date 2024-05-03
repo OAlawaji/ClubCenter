@@ -9,7 +9,7 @@ function Container({ content }) {
 <h1 className="text-xl sm:text-3xl font-almarai font-extrabold text-sakry" >{content.titleArabic}</h1>
             </div>
 
-            <div className="h-full grid gap-x-8 gap-y-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-8">
+            <div className="h-full grid gap-x-8 gap-y-8 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 m-8">
                 {content.content}
             </div>
         </div>
