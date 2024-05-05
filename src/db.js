@@ -2,7 +2,7 @@ export const clubs = {
     computerClub:{
     name: "Computer Club",
     nameAR: "نادي الحاسب الآلي",
-    logo: "src/assets/Clubs/computerClub.JPG",
+    logo: "./src/assets/Clubs/computerClub.JPG",
     socials : {
         whatsApp: "https://chat.whatsapp.com/Bu2PzBFZfRC13rAQKsk0oA",
         twitter: "https://twitter.com/kfupm_cc?s=11&t=MgLI9_HQ82v63YhVed-Zqg",
@@ -13,7 +13,7 @@ export const clubs = {
     IEClub: {
         name: "Intellectual & Electronic Sports Club",
         nameAR: "نادي الرياضات الذهنية والإلكترونية",
-        logo: "src/assets/Clubs/IEClub.WEBP",
+        logo: "./src/assets/Clubs/IEClub.WEBP",
     socials : {
         instagram: "https://www.instagram.com/ie_kfupm",
         twitter: "https://twitter.com/IEclub_Kfupm",
@@ -24,7 +24,7 @@ export const clubs = {
 jawalahClub: {
     name: "Jawalah Club",
     nameAR: "نادي عشائر الجوالة",
-    logo: "src/assets/Clubs/jawalahClub.JPG",
+    logo: "./src/assets/Clubs/jawalahClub.JPG",
 socials : {
     instagram: "https://www.instagram.com/jawalahkfupm",
     twitter: "https://twitter.com/jawalahkfupm",
@@ -35,7 +35,7 @@ socials : {
 dayumClub: {
     name: "Dayum Club",
     nameAR: "نادي الضيم",
-    logo: "src/assets/Clubs/dayumClub.PNG",
+    logo: "./src/assets/Clubs/dayumClub.PNG",
 socials : {
     instagram: "https://www.instagram.com/Nkoash",
     twitter: "https://twitter.com/Nkoasher",
@@ -51,35 +51,35 @@ export const events = {
         host: "Computer Club",
         date: "June 1st, 2022 at 7:00 PM",
         register: "Click to register",
-        logo: "src/assets/Activities/Activity1-Logo.png"
+        logo: "./src/assets/Activities/Activity1-Logo.png"
     },
     event2:{
         title: "Chess & Board Games Tournament",
         host: "Entertainment Club",
         date: "March 1st, 2024 at 7:00 PM",
         register: "Click to register",
-        logo: "src/assets/Activities/Activity2-Logo.png"
+        logo: "./src/assets/Activities/Activity2-Logo.png"
     },
     event3:{
         title: "Chess & Board Games Tournament",
         host: "Entertainment Club",
         date: "March 1st, 2024 at 7:00 PM",
         register: "Click to register",
-        logo: "src/assets/Activities/Activity2-Logo.png"
+        logo: "./src/assets/Activities/Activity2-Logo.png"
     },
     event4:{
         title: "Chess & Board Games Tournament",
         host: "Entertainment Club",
         date: "March 1st, 2024 at 7:00 PM",
         register: "Click to register",
-        logo: "src/assets/Activities/Activity2-Logo.png"
+        logo: "./src/assets/Activities/Activity2-Logo.png"
     },
     event5:{
         title: "Chess & Board Games Tournament",
         host: "Entertainment Club",
         date: "March 1st, 2024 at 7:00 PM",
         register: "Click to register",
-        logo: "src/assets/Activities/Activity2-Logo.png"
+        logo: "./src/assets/Activities/Activity2-Logo.png"
     },
 
 }

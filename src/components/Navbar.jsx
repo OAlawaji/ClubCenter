@@ -33,7 +33,7 @@ import FestivalIcon from '@mui/icons-material/Festival';
 import GroupsIcon from '@mui/icons-material/Groups';
 import InfoIcon from '@mui/icons-material/Info';
 import LoginIcon from '@mui/icons-material/Login';
-
+import imageSrc from "../assets/logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const navRef = useRef(null);
@@ -73,7 +73,7 @@ const Navbar = () => {
     text-sakry font-kanit font-semibold' 
     ref={navRef}>
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
-      <img className="h-16" src="src\assets\logo.png" />
+      <img className="h-16" src={imageSrc} />
       <ul className='hidden md:flex'>
       <a  href = '#home' onClick={(event) => {event.preventDefault(); window.scrollTo(0, document.getElementById('home').offsetTop)}}>
           <li className='p-4 hover:text-SGreenLight '>Home</li>
