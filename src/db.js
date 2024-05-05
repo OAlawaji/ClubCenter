@@ -1,3 +1,4 @@
+import IEClubLogo from './assets/Clubs/IEClub.WEBP';
 export const clubs = { 
     computerClub:{
     name: "Computer Club",
@@ -13,7 +14,7 @@ export const clubs = {
     IEClub: {
         name: "Intellectual & Electronic Sports Club",
         nameAR: "نادي الرياضات الذهنية والإلكترونية",
-        logo: "./src/assets/Clubs/IEClub.WEBP",
+        logo: IEClubLogo,
     socials : {
         instagram: "https://www.instagram.com/ie_kfupm",
         twitter: "https://twitter.com/IEclub_Kfupm",
