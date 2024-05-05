@@ -1,9 +1,9 @@
 import React from "react";
-
+import imageSrc from '../assets/KFUPMtower.png';
 function Welcome() {
     return (
         <div className="max-w-[1248px] w-full flex flex-row">
-        <img src={process.env.PUBLIC_URL + "src/assets/KFUPMtower.png"} alt="image" className="sm:block hidden" />            
+       <img src={imageSrc} className="sm:block hidden" alt="image" />  
         <div className="flex flex-col 
               justify-center items-start       
 
