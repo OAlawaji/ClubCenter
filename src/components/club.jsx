@@ -21,22 +21,24 @@ function Club({clubData}) {
     min-h-0 
     rounded-xl
     sm:min-h-[200px] md:min-h-[300px] min-w-0 sm:min-w-[200px] md:min-w-[400px] xl:min-w-content relative
-
+    bg-transparent
+    shadow-3xl
     group"  // Add the group class to the card
 >
     <img
         className="w-full h-full 
         rounded-3xl 
         border-2 border-transparent
+        
         "
         src={clubData.logo}
         alt="Club logo"
     />
 
     <div
-        className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#09160a] to-transparent rounded-3xl
+        className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-SGreen to-transparent rounded-3xl
         flex justify-center items-end
-        p-4
+        p-4 
         opacity-0 group-hover:opacity-100 transition-opacity duration-300"  // Change the opacity to 100 when the card is hovered over
     >
         {Object.entries(clubData.socials).map(([platform, link]) => (

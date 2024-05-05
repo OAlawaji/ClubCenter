@@ -6,8 +6,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'sakry': '#FEFFEC', // Add your custom color here
+        'sakry': '#FEFFEC', 
+        'SGreen': '#09160a',
+        'SGreenLight': '#2c5545',
+        'SGreenDark': '#302c04',
+        // Add your custom color here
       },
+
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],
         'almarai': ['Almarai', 'sans-serif'],
@@ -18,6 +23,7 @@ export default {
       fontWeight: {
         'thin': '100',
         'normal': '300',
+        'semibold': '500',
         'bold': '700',
         'black': '900',
         'extrabold': '800',
