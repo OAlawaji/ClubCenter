@@ -3,7 +3,7 @@ import React from "react";
 function Welcome() {
     return (
         <div className="max-w-[1248px] w-full flex flex-row">
-        <img src="src\assets\KFUPMtower.png" alt="image" className="sm:block hidden" />            
+        <img src={process.env.PUBLIC_URL + "src/assets/KFUPMtower.png"} alt="image" className="sm:block hidden" />            
         <div className="flex flex-col 
               justify-center items-start       
 
