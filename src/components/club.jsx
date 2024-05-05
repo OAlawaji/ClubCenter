@@ -14,7 +14,7 @@ const SocialMediaLogos = {
 };
 
 function Club({clubData}) {
-
+    // import imageSrc from '../assets/KFUPMtower.png';
     return (
 <div
     className="
@@ -23,7 +23,7 @@ function Club({clubData}) {
     sm:min-h-[200px] md:min-h-[300px] min-w-0 sm:min-w-[200px] md:min-w-[400px] xl:min-w-content relative
     bg-transparent
     shadow-3xl
-    group"  // Add the group class to the card
+    group" 
 >
     <img
         className="w-full h-full 
@@ -39,7 +39,7 @@ function Club({clubData}) {
         className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-SGreen to-transparent rounded-3xl
         flex justify-center items-end
         p-4 
-        opacity-0 group-hover:opacity-100 transition-opacity duration-300"  // Change the opacity to 100 when the card is hovered over
+        opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
     >
         {Object.entries(clubData.socials).map(([platform, link]) => (
             <a href={link} key={platform}>

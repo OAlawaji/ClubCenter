@@ -2,7 +2,7 @@ export const clubs = {
     computerClub:{
     name: "Computer Club",
     nameAR: "نادي الحاسب الآلي",
-    logo: "src/assets/Clubs/computerClub.jpg",
+    logo: "src/assets/Clubs/computerClub.JPG",
     socials : {
         whatsApp: "https://chat.whatsapp.com/Bu2PzBFZfRC13rAQKsk0oA",
         twitter: "https://twitter.com/kfupm_cc?s=11&t=MgLI9_HQ82v63YhVed-Zqg",
@@ -13,7 +13,7 @@ export const clubs = {
     IEClub: {
         name: "Intellectual & Electronic Sports Club",
         nameAR: "نادي الرياضات الذهنية والإلكترونية",
-        logo: "src/assets/Clubs/IEClub.webp",
+        logo: "src/assets/Clubs/IEClub.WEBP",
     socials : {
         instagram: "https://www.instagram.com/ie_kfupm",
         twitter: "https://twitter.com/IEclub_Kfupm",
@@ -24,7 +24,7 @@ export const clubs = {
 jawalahClub: {
     name: "Jawalah Club",
     nameAR: "نادي عشائر الجوالة",
-    logo: "src/assets/Clubs/jawalahClub.jpg",
+    logo: "src/assets/Clubs/jawalahClub.JPG",
 socials : {
     instagram: "https://www.instagram.com/jawalahkfupm",
     twitter: "https://twitter.com/jawalahkfupm",
@@ -35,7 +35,7 @@ socials : {
 dayumClub: {
     name: "Dayum Club",
     nameAR: "نادي الضيم",
-    logo: "src/assets/Clubs/dayumClub.png",
+    logo: "src/assets/Clubs/dayumClub.PNG",
 socials : {
     instagram: "https://www.instagram.com/Nkoash",
     twitter: "https://twitter.com/Nkoasher",
