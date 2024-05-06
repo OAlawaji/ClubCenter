@@ -52,6 +52,54 @@ socials : {
 
 },
 },
+dayumClub1: {
+    name: "Dayum Club",
+    nameAR: "نادي الضيم",
+    logo: dayumClubLogo,
+socials : {
+    instagram: "https://www.instagram.com/Nkoash",
+    twitter: "https://twitter.com/Nkoasher",
+    linkedIn: "https://www.linkedin.com/OAlawaji",
+    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+
+},
+},
+dayumClub2: {
+    name: "Dayum Club",
+    nameAR: "نادي الضيم",
+    logo: dayumClubLogo,
+socials : {
+    instagram: "https://www.instagram.com/Nkoash",
+    twitter: "https://twitter.com/Nkoasher",
+    linkedIn: "https://www.linkedin.com/OAlawaji",
+    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+
+},
+},
+dayumClub3: {
+    name: "Dayum Club",
+    nameAR: "نادي الضيم",
+    logo: dayumClubLogo,
+socials : {
+    instagram: "https://www.instagram.com/Nkoash",
+    twitter: "https://twitter.com/Nkoasher",
+    linkedIn: "https://www.linkedin.com/OAlawaji",
+    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+
+},
+},
+dayumClub4: {
+    name: "Dayum Club",
+    nameAR: "نادي الضيم",
+    logo: dayumClubLogo,
+socials : {
+    instagram: "https://www.instagram.com/Nkoash",
+    twitter: "https://twitter.com/Nkoasher",
+    linkedIn: "https://www.linkedin.com/OAlawaji",
+    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+
+},
+},
 }
 export const events = {
     event1:{

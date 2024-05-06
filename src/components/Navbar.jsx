@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import HomeIcon from "@mui/icons-material/Home";
@@ -7,7 +6,7 @@ import GroupsIcon from "@mui/icons-material/Groups";
 import InfoIcon from "@mui/icons-material/Info";
 import LoginIcon from "@mui/icons-material/Login";
 import imageSrc from "../assets/logo.png";
-const Navbar = () => {
+function Navbar({ isHome, returnHome }) {
   const [nav, setNav] = useState(false);
   const navRef = useRef(null);
 
@@ -32,7 +31,14 @@ const Navbar = () => {
   }, [nav]);
 
   // APPEND A SEARCH BAR TO THE NAVBAR ****************************************************
-
+  function scroll(event, id) {
+    event.preventDefault();
+    const element = document.getElementById(id);
+    window.scrollTo({
+      top: element.offsetTop,
+      behavior: "smooth",
+    });
+  }
   return (
     <div
       className="flex justify-between 
@@ -43,15 +49,13 @@ const Navbar = () => {
     >
       <img className="h-16" src={imageSrc} />
       <ul className="hidden md:flex">
-      <a
-          href="#home"
+        <a
+          href={isHome ? "#home" : "/"}
+          // href="#home"
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("home");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            if (!isHome) 
+              {returnHome(true);}
+            scroll(event, "home");
           }}
         >
           <li className="p-4 hover:text-SGreenLight ">Home</li>
@@ -59,12 +63,7 @@ const Navbar = () => {
         <a
           href="#events"
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("events");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            scroll(event, "events");
           }}
         >
           <li className="p-4 hover:text-SGreenLight">Events</li>
@@ -72,21 +71,14 @@ const Navbar = () => {
         <a
           href="#clubs"
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("clubs");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            scroll(event, "clubs");
           }}
         >
           <li className="p-4 hover:text-SGreenLight">Clubs</li>
         </a>
         <a
-          href="#about"
           onClick={(event) => {
-            event.preventDefault();
-            window.scrollTo(0, document.getElementById("about").offsetTop);
+            scroll(event, "about");
           }}
         >
           <li className="p-4 hover:text-SGreenLight" hover:text-SGreenLight>
@@ -120,12 +112,7 @@ const Navbar = () => {
         {/*  */}
         <a
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("home");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            scroll(event, "home");
             handleNav();
           }}
         >
@@ -135,14 +122,8 @@ const Navbar = () => {
           </li>
         </a>
         <a
-          href="#events"
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("events");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            scroll(event, "events");
             handleNav();
           }}
         >
@@ -153,12 +134,7 @@ const Navbar = () => {
         </a>
         <a
           onClick={(event) => {
-            event.preventDefault();
-            const element = document.getElementById("clubs");
-            window.scrollTo({
-              top: element.offsetTop,
-              behavior: "smooth",
-            });
+            scroll(event, "clubs");
             handleNav();
           }}
         >
@@ -167,7 +143,12 @@ const Navbar = () => {
             <h2>Clubs</h2>
           </li>
         </a>
-        <a href="">
+        <a href="#about"
+                  onClick={(event) => {
+                    scroll(event, "about");
+                    handleNav();
+                  }}
+        >
           <li className="p-4 border-b border-gray-600 flex flex-row space-x-2">
             <InfoIcon />
             <h2>About</h2>
@@ -182,6 +163,6 @@ const Navbar = () => {
       </ul>
     </div>
   );
-};
+}
 
 export default Navbar;

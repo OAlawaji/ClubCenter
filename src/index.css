@@ -8,7 +8,6 @@ body {
   background-color: #09160a;
   background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .card {
   transition: opacity 0.3s;
@@ -19,10 +18,10 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
 }
 .card:hover .card-image {
-  opacity: 0.7; /* adjust this value to get the desired transparency */
+  opacity: 0.7; 
 }
 .card:hover .card-title {
-  text-decoration: underline; /* change to Shadow */
+  text-decoration: underline; 
 }
 .image-container {
   position: relative;
@@ -41,5 +40,17 @@ body {
 }
 
 .social:hover {
-  color: #4A5564; /* Change to the color you want on hover */
+  color: #4A5564; 
+}
+.group:hover .rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
 }

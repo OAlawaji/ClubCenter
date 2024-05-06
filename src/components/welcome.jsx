@@ -14,7 +14,7 @@ function Welcome() {
                 <h1 className="text-4xl sm:text-4xl font-extrabold ">Welcome to KFUPM Club Center</h1> 
                 <p>Join where you can find Clubs or Activities that matches your interests <br/>
                 Or create your own Club or Activity if you are authorized by signing in </p> 
-                <button className="px-4 md:px-4 py-2 md:py-2 rounded-md font-medium 
+                <button className="px-4 md:px-4 py-2 md:py-2 rounded-xl font-xl
                 flex bg-SGreenDark shadow-3xl hover:bg-transparent transition-colors duration-200 sm:py-3 sm:px-6" >Sign in</button>           
                 
                 
