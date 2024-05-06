@@ -18,7 +18,10 @@ function Card({eventData}) {
     return (
 
 <div className="card bg-SGreenDark min-w-0 sm:min-w-[200px] md:min-w-[300px] h-auto rounded-3xl shadow-3xl flex md:block">
-    <img className="card-image w-full sm:w-1/3 md:w-full object-cover rounded-l-3xl md:rounded-t-3xl" src={eventData.logo} alt="Activity logo" /> 
+    <img className="card-image 
+    w-1/3 md:w-full 
+    object-cover rounded-l-3xl 
+    md:rounded-t-3xl" src={eventData.logo} alt="Activity logo" /> 
     <div className="p-4 space-y-2 w-full sm:w-2/3 md:w-full">
         <h3 className="font-extrabold text-lg sm:text-xl card-title" style={{ transition: "text-decoration 0.3s" }}>{eventData.title}</h3>
         <p className="ml-2 font-normal text-sm sm:text-base" > <GroupsIcon className="mr-2 mb-1"/>{eventData.host} </p>
