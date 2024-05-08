@@ -47,16 +47,18 @@ function CardLoad({ onClick, full, type }) {
               : "Show More"}
           </h1>
           {type == "events" && (
-            <div style={{ transform: full ? "scaleX(-1)" : "scaleX(1)" }}>
-              <RefreshIcon
-                style={{
-                  fontSize: 32,
-                  transition: "transform 0.5s",
-                  transform: isHovered ? "rotate(360deg)" : "rotate(0deg)",
-                }}
-              />
-            </div>
-          )}
+  <div
+    className="text-2xl transition-all duration-200 hover:text-3xl"
+    style={{ transform: full ? "scaleX(-1)" : "scaleX(1)" }}
+  >
+    <RefreshIcon
+      style={{
+        transition: "transform 0.5s",
+        transform: isHovered ? "rotate(360deg) scale(1.5)" : "rotate(0deg) scale(1)",
+      }}
+    />
+  </div>
+)}
         </div>
         <div className="flex-1 h-px bg-sakry" />
       </div>
