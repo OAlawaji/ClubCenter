@@ -84,14 +84,15 @@ socials : {
 
 },
 },
-jawalahClub5: {
-    name: "Jawalah Club",
-    nameAR: "نادي عشائر الجوالة",
-    logo: jawalahClubLogo,
+dayumClub: {
+    name: "Dayum Club",
+    nameAR: "نادي الضيم",
+    logo: dayumClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/jawalahkfupm",
-    twitter: "https://twitter.com/jawalahkfupm",
-    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
+    instagram: "https://www.instagram.com/Nkoash",
+    twitter: "https://twitter.com/Nkoasher",
+    linkedIn: "https://www.linkedin.com/OAlawaji",
+    youtube: "https://www.youtube.com/@IEClub_KFUPM"
 
 },
 },

@@ -11,8 +11,8 @@ import { clubs, events } from "./db.js";
 import Footer from "./components/footer.jsx";
 
 function App() {
-  const [eventsToShow, setEventsToShow] = useState(4); // Change this to the initial number of events you want to show
-  const [clubsToShow, setClubsToShow] = useState(3); // Change this to the initial number of clubs you want to show
+  const [eventsToShow, setEventsToShow] = useState(4); // num of events in the main page
+  const [clubsToShow, setClubsToShow] = useState(6); // num of clubs in the main page
   const [showContent, setShowContent] = useState(true);
 
   const clubsArray = Object.values(clubs);
@@ -61,7 +61,7 @@ function App() {
           full={true}
           type={"clubs"}
           onClick={() => {
-            setClubsToShow(3);
+            setClubsToShow(6);
             setShowContent(true);
           }}
         />
