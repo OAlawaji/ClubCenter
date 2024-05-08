@@ -40,63 +40,58 @@ socials : {
 
 },
 },
-dayumClub: {
-    name: "Dayum Club",
-    nameAR: "نادي الضيم",
-    logo: dayumClubLogo,
+jawalahClub2: {
+    name: "Jawalah Club",
+    nameAR: "نادي عشائر الجوالة",
+    logo: jawalahClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/Nkoash",
-    twitter: "https://twitter.com/Nkoasher",
-    linkedIn: "https://www.linkedin.com/OAlawaji",
-    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+    instagram: "https://www.instagram.com/jawalahkfupm",
+    twitter: "https://twitter.com/jawalahkfupm",
+    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
 
 },
 },
-dayumClub1: {
-    name: "Dayum Club",
-    nameAR: "نادي الضيم",
-    logo: dayumClubLogo,
+jawalahClub3: {
+    name: "Jawalah Club",
+    nameAR: "نادي عشائر الجوالة",
+    logo: jawalahClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/Nkoash",
-    twitter: "https://twitter.com/Nkoasher",
-    linkedIn: "https://www.linkedin.com/OAlawaji",
-    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+    instagram: "https://www.instagram.com/jawalahkfupm",
+    twitter: "https://twitter.com/jawalahkfupm",
+    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
 
 },
 },
-dayumClub2: {
-    name: "Dayum Club",
-    nameAR: "نادي الضيم",
-    logo: dayumClubLogo,
+jawalahClub3: {
+    name: "Jawalah Club",
+    nameAR: "نادي عشائر الجوالة",
+    logo: jawalahClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/Nkoash",
-    twitter: "https://twitter.com/Nkoasher",
-    linkedIn: "https://www.linkedin.com/OAlawaji",
-    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+    instagram: "https://www.instagram.com/jawalahkfupm",
+    twitter: "https://twitter.com/jawalahkfupm",
+    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
 
 },
 },
-dayumClub3: {
-    name: "Dayum Club",
-    nameAR: "نادي الضيم",
-    logo: dayumClubLogo,
+jawalahClub4: {
+    name: "Jawalah Club",
+    nameAR: "نادي عشائر الجوالة",
+    logo: jawalahClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/Nkoash",
-    twitter: "https://twitter.com/Nkoasher",
-    linkedIn: "https://www.linkedin.com/OAlawaji",
-    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+    instagram: "https://www.instagram.com/jawalahkfupm",
+    twitter: "https://twitter.com/jawalahkfupm",
+    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
 
 },
 },
-dayumClub4: {
-    name: "Dayum Club",
-    nameAR: "نادي الضيم",
-    logo: dayumClubLogo,
+jawalahClub5: {
+    name: "Jawalah Club",
+    nameAR: "نادي عشائر الجوالة",
+    logo: jawalahClubLogo,
 socials : {
-    instagram: "https://www.instagram.com/Nkoash",
-    twitter: "https://twitter.com/Nkoasher",
-    linkedIn: "https://www.linkedin.com/OAlawaji",
-    youtube: "https://www.youtube.com/@IEClub_KFUPM"
+    instagram: "https://www.instagram.com/jawalahkfupm",
+    twitter: "https://twitter.com/jawalahkfupm",
+    linkedIn: "https://www.linkedin.com/company/kfupm-jawalah",
 
 },
 },
