@@ -1,0 +1,688 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\User\\KFUPMCC",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2024-05-11 04:25:39",
+            "filesum": 96,
+            "codesum": 9157,
+            "commentsum": 810,
+            "blanksum": 709,
+            "statistics": {
+                "": {
+                    "code": 18,
+                    "comment": 9,
+                    "blank": 2
+                },
+                ".json": {
+                    "code": 7405,
+                    "comment": 0,
+                    "blank": 87
+                },
+                ".md": {
+                    "code": 5,
+                    "comment": 2,
+                    "blank": 3
+                },
+                ".js": {
+                    "code": 757,
+                    "comment": 709,
+                    "blank": 535
+                },
+                ".jsx": {
+                    "code": 717,
+                    "comment": 49,
+                    "blank": 55
+                },
+                ".css": {
+                    "code": 180,
+                    "comment": 40,
+                    "blank": 17
+                },
+                ".html": {
+                    "code": 12,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yml": {
+                    "code": 41,
+                    "comment": 0,
+                    "blank": 10
+                },
+                ".cjs": {
+                    "code": 21,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": ".eslintrc.cjs"
+                },
+                {
+                    "blank": 10,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": ".github\\workflows\\deploy.yml"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": ".next\\build-manifest.json"
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development-fallback\\0.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development-fallback\\index.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\0.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\1.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\2.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\3.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\4.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\index.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\client-development\\index.pack.gz.old",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\0.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\1.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\2.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\3.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\index.pack.gz",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\cache\\webpack\\server-development\\index.pack.gz.old",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": ".next\\fallback-build-manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\react-loadable-manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\interception-route-rewrite-manifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\middleware-build-manifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".next\\server\\middleware-manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\middleware-react-loadable-manifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\next-font-manifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\next-font-manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\pages-manifest.json"
+                },
+                {
+                    "blank": 150,
+                    "code": 155,
+                    "comment": 174,
+                    "filename": ".next\\static\\chunks\\fallback\\amp.js"
+                },
+                {
+                    "blank": 352,
+                    "code": 357,
+                    "comment": 385,
+                    "filename": ".next\\static\\chunks\\fallback\\main.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 17,
+                    "filename": ".next\\static\\chunks\\fallback\\pages\\_app.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 17,
+                    "filename": ".next\\static\\chunks\\fallback\\pages\\_error.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 15,
+                    "comment": 24,
+                    "filename": ".next\\static\\chunks\\fallback\\react-refresh.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 11,
+                    "filename": ".next\\static\\chunks\\fallback\\webpack.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": ".next\\static\\chunks\\polyfills.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\static\\development\\_buildManifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\static\\development\\_ssgManifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".next\\trace"
+                },
+                {
+                    "filename": "assets\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 130,
+                    "comment": 0,
+                    "filename": "data\\db.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 79,
+                    "code": 7192,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 14,
+                    "comment": 76,
+                    "filename": "pages\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "postcss.config.js"
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity 1 - Full.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity 2 - Full.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity1-Logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity1-scaled.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity2-Logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Activity2-scaled.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Activities\\Handler.psd",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Clubs\\computerClub.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Clubs\\dayumClub.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Clubs\\IEClub.webp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\Clubs\\jawalahClub.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\image.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\assets\\KFUPMtower.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\vite.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 2,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "server.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\App.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 126,
+                    "comment": 9,
+                    "filename": "src\\App.jsx"
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity1-Full.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity1-Logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity1-scaled.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity2-Full.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity2-Logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Activity2-scaled.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Activities\\Handler.psd",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Clubs\\computerClub.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Clubs\\dayumClub.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Clubs\\IEClub.webp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Clubs\\jawalahClub.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\image.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\KFUPMtower.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 9,
+                    "filename": "src\\components\\addCard.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 54,
+                    "comment": 9,
+                    "filename": "src\\components\\card.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src\\components\\cardLoad.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "src\\components\\club.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "src\\components\\clubs.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 2,
+                    "filename": "src\\components\\container.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 63,
+                    "comment": 1,
+                    "filename": "src\\components\\eventDetails.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 67,
+                    "comment": 2,
+                    "filename": "src\\components\\eventForm.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "src\\components\\footer.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 157,
+                    "comment": 2,
+                    "filename": "src\\components\\Navbar.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 5,
+                    "filename": "src\\components\\SignIn.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 9,
+                    "filename": "src\\components\\welcome.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 127,
+                    "comment": 2,
+                    "filename": "src\\db.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 94,
+                    "comment": 20,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\main.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 86,
+                    "comment": 20,
+                    "filename": "styles\\global.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "tailwind.config.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "vite.config.js"
+                }
+            ]
+        }
+    ]
+}

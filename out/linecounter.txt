@@ -1,0 +1,122 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-05-11 04:25:39
+count workspace : c:\Users\User\KFUPMCC
+total files : 96
+total code lines : 9157
+total comment lines : 810
+total blank lines : 709
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |             18|              9|              2|   0.20|
+   |          .json|           7405|              0|             87|     81|
+   |            .md|              5|              2|              3|  0.055|
+   |            .js|            757|            709|            535|    8.3|
+   |           .jsx|            717|             49|             55|    7.8|
+   |           .css|            180|             40|             17|    2.0|
+   |          .html|             12|              1|              0|   0.13|
+   |           .svg|              1|              0|              0|  0.011|
+   |           .yml|             41|              0|             10|   0.45|
+   |           .cjs|             21|              0|              0|   0.23|
+   -------------------------------------------------------------------------
+.eslintrc.cjs, code is 21, comment is 0, blank is 0.
+.github\workflows\deploy.yml, code is 41, comment is 0, blank is 10.
+.gitignore, code is 14, comment is 9, blank is 2.
+.next\build-manifest.json, code is 14, comment is 0, blank is 2.
+.next\cache\webpack\client-development-fallback\0.pack.gz, it is a binary file.
+.next\cache\webpack\client-development-fallback\index.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\0.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\1.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\2.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\3.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\4.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\index.pack.gz, it is a binary file.
+.next\cache\webpack\client-development\index.pack.gz.old, it is a binary file.
+.next\cache\webpack\server-development\0.pack.gz, it is a binary file.
+.next\cache\webpack\server-development\1.pack.gz, it is a binary file.
+.next\cache\webpack\server-development\2.pack.gz, it is a binary file.
+.next\cache\webpack\server-development\3.pack.gz, it is a binary file.
+.next\cache\webpack\server-development\index.pack.gz, it is a binary file.
+.next\cache\webpack\server-development\index.pack.gz.old, it is a binary file.
+.next\fallback-build-manifest.json, code is 22, comment is 0, blank is 5.
+.next\package.json, code is 1, comment is 0, blank is 0.
+.next\react-loadable-manifest.json, code is 1, comment is 0, blank is 0.
+.next\server\interception-route-rewrite-manifest.js, code is 1, comment is 0, blank is 0.
+.next\server\middleware-build-manifest.js, code is 1, comment is 0, blank is 0.
+.next\server\middleware-manifest.json, code is 6, comment is 0, blank is 0.
+.next\server\middleware-react-loadable-manifest.js, code is 1, comment is 0, blank is 0.
+.next\server\next-font-manifest.js, code is 1, comment is 0, blank is 0.
+.next\server\next-font-manifest.json, code is 1, comment is 0, blank is 0.
+.next\server\pages-manifest.json, code is 1, comment is 0, blank is 0.
+.next\static\chunks\fallback\amp.js, code is 155, comment is 174, blank is 150.
+.next\static\chunks\fallback\main.js, code is 357, comment is 385, blank is 352.
+.next\static\chunks\fallback\pages\_app.js, code is 10, comment is 17, blank is 4.
+.next\static\chunks\fallback\pages\_error.js, code is 10, comment is 17, blank is 4.
+.next\static\chunks\fallback\react-refresh.js, code is 15, comment is 24, blank is 10.
+.next\static\chunks\fallback\webpack.js, code is 2, comment is 11, blank is 0.
+.next\static\chunks\polyfills.js, code is 1, comment is 1, blank is 0.
+.next\static\development\_buildManifest.js, code is 1, comment is 0, blank is 0.
+.next\static\development\_ssgManifest.js, code is 1, comment is 0, blank is 0.
+.next\trace, code is 4, comment is 0, blank is 0.
+assets\logo.png, it is a binary file.
+data\db.json, code is 130, comment is 0, blank is 1.
+index.html, code is 12, comment is 1, blank is 0.
+package-lock.json, code is 7192, comment is 0, blank is 79.
+package.json, code is 37, comment is 0, blank is 0.
+pages\index.js, code is 14, comment is 76, blank is 9.
+postcss.config.js, code is 6, comment is 0, blank is 0.
+public\assets\Activities\Activity 1 - Full.jpg, it is a binary file.
+public\assets\Activities\Activity 2 - Full.jpg, it is a binary file.
+public\assets\Activities\Activity1-Logo.png, it is a binary file.
+public\assets\Activities\Activity1-scaled.jpg, it is a binary file.
+public\assets\Activities\Activity2-Logo.png, it is a binary file.
+public\assets\Activities\Activity2-scaled.jpg, it is a binary file.
+public\assets\Activities\Handler.psd, it is a binary file.
+public\assets\Clubs\computerClub.jpg, it is a binary file.
+public\assets\Clubs\dayumClub.png, it is a binary file.
+public\assets\Clubs\IEClub.webp, it is a binary file.
+public\assets\Clubs\jawalahClub.jpg, it is a binary file.
+public\assets\image.png, it is a binary file.
+public\assets\KFUPMtower.png, it is a binary file.
+public\vite.svg, code is 1, comment is 0, blank is 0.
+README.md, code is 5, comment is 2, blank is 3.
+server.js, code is 9, comment is 0, blank is 2.
+src\App.css, code is 0, comment is 0, blank is 0.
+src\App.jsx, code is 126, comment is 9, blank is 9.
+src\assets\Activities\Activity1-Full.jpg, it is a binary file.
+src\assets\Activities\Activity1-Logo.png, it is a binary file.
+src\assets\Activities\Activity1-scaled.jpg, it is a binary file.
+src\assets\Activities\Activity2-Full.jpg, it is a binary file.
+src\assets\Activities\Activity2-Logo.png, it is a binary file.
+src\assets\Activities\Activity2-scaled.jpg, it is a binary file.
+src\assets\Activities\Handler.psd, it is a binary file.
+src\assets\Clubs\computerClub.jpg, it is a binary file.
+src\assets\Clubs\dayumClub.png, it is a binary file.
+src\assets\Clubs\IEClub.webp, it is a binary file.
+src\assets\Clubs\jawalahClub.jpg, it is a binary file.
+src\assets\image.png, it is a binary file.
+src\assets\KFUPMtower.png, it is a binary file.
+src\assets\logo.png, it is a binary file.
+src\components\addCard.jsx, code is 16, comment is 9, blank is 4.
+src\components\card.jsx, code is 54, comment is 9, blank is 3.
+src\components\cardLoad.jsx, code is 47, comment is 0, blank is 2.
+src\components\club.jsx, code is 37, comment is 0, blank is 4.
+src\components\clubs.jsx, code is 21, comment is 1, blank is 2.
+src\components\container.jsx, code is 22, comment is 2, blank is 1.
+src\components\eventDetails.jsx, code is 63, comment is 1, blank is 5.
+src\components\eventForm.jsx, code is 67, comment is 2, blank is 6.
+src\components\footer.jsx, code is 44, comment is 0, blank is 0.
+src\components\Navbar.jsx, code is 157, comment is 2, blank is 6.
+src\components\SignIn.jsx, code is 34, comment is 5, blank is 6.
+src\components\welcome.jsx, code is 20, comment is 9, blank is 6.
+src\db.js, code is 127, comment is 2, blank is 3.
+src\index.css, code is 94, comment is 20, blank is 9.
+src\main.jsx, code is 9, comment is 0, blank is 1.
+styles\global.css, code is 86, comment is 20, blank is 8.
+tailwind.config.js, code is 39, comment is 1, blank is 0.
+vite.config.js, code is 6, comment is 1, blank is 1.
+===============================================================================

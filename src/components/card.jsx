@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import Modal from 'react-modal';
 import GroupsIcon from "@mui/icons-material/Groups";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
-
+import EventDetails from "./eventDetails";
+Modal.setAppElement('#root')
 // rest of your code
 
 function Card({ eventData }) {
@@ -14,9 +16,21 @@ function Card({ eventData }) {
   //     register: "Click to register",
   //     logo: "src/assets/Activities/Activity 1 - Logo.png"
   // }
-
+  const [showDetails, setShowDetails] = useState(false);
+  const closeModal = () => {
+    setShowDetails(false);
+  };
   return (
-    <div className="card bg-SGreenDark min-w-0 sm:min-w-[200px] md:min-w-[300px] h-auto rounded-3xl shadow-3xl flex md:block">
+    <div>
+      <EventDetails 
+        eventData={eventData} 
+        isOpen={showDetails} 
+        onRequestClose={closeModal}
+      />
+
+    <div 
+    onClick={() => setShowDetails(true)}
+    className="card bg-SGreenDark min-w-0 sm:min-w-[200px] md:min-w-[300px] h-auto rounded-3xl shadow-3xl flex md:block">
       <img
         className="card-image 
     w-1/3 md:w-full 
@@ -27,7 +41,9 @@ function Card({ eventData }) {
       />
       <div className="p-4 space-y-2 w-full sm:w-2/3 md:w-full">
         <h3
-          className="font-semibold text-lg sm:text-xl card-title"
+          className="
+          card-title
+          font-semibold text-lg sm:text-xl"
           style={{ transition: "text-decoration 0.3s" }}
         >
           {eventData.title}
@@ -47,6 +63,7 @@ function Card({ eventData }) {
           <AssignmentOutlinedIcon className="mr-2 mb-1" /> {eventData.register}
         </p>
       </div>
+    </div>
     </div>
   );
 }

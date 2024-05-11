@@ -1,0 +1,131 @@
+{
+    "clubs": {
+        "computerClub": {
+            "name": "Computer Club",
+            "nameAR": "نادي الحاسب الآلي",
+            "description": "The Computer Club is a community of students passionate about computer science and technology. We organize workshops, competitions, and events to enhance technical skills and promote collaboration among students.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "whatsApp": "https://chat.whatsapp.com/Bu2PzBFZfRC13rAQKsk0oA",
+                "twitter": "https://twitter.com/kfupm_cc?s=11&t=MgLI9_HQ82v63YhVed-Zqg",
+                "linkedIn": "https://www.linkedin.com/company/kfupmcclub/",
+                "youtube": "https://www.youtube.com/channel/UC53CPMNo35_d3q3QV7Hzu8w"
+            }
+        },
+        "IEClub": {
+            "name": "Intellectual & Electronic Sports Club",
+            "nameAR": "نادي الرياضات الذهنية والإلكترونية",
+            "description": "The Intellectual & Electronic Sports Club is dedicated to promoting critical thinking, problem-solving, and electronic sports. We organize tournaments, workshops, and training sessions to develop skills and foster a competitive spirit.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/ie_kfupm",
+                "twitter": "https://twitter.com/IEclub_Kfupm",
+                "linkedIn": "https://www.linkedin.com/company/ieclub-kfupm",
+                "youtube": "https://www.youtube.com/@IEClub_KFUPM"
+            }
+        },
+        "jawalahClub": {
+            "name": "Jawalah Club",
+            "nameAR": "نادي عشائر الجوالة",
+            "description": "The Jawalah Club is a community of outdoor enthusiasts. We organize hiking trips, camping adventures, and other outdoor activities to explore the beauty of nature and promote a healthy lifestyle.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/jawalahkfupm",
+                "twitter": "https://twitter.com/jawalahkfupm",
+                "linkedIn": "https://www.linkedin.com/company/kfupm-jawalah"
+            }
+        },
+        "newClub1": {
+            "name": "New Club 1",
+            "nameAR": "نادي جديد 1",
+            "description": "This is a new club for testing purposes.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/newclub1",
+                "twitter": "https://twitter.com/newclub1",
+                "linkedIn": "https://www.linkedin.com/company/newclub1"
+            }
+        },
+        "newClub2": {
+            "name": "New Club 2",
+            "nameAR": "نادي جديد 2",
+            "description": "This is another new club for testing purposes.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/newclub2",
+                "twitter": "https://twitter.com/newclub2",
+                "linkedIn": "https://www.linkedin.com/company/newclub2"
+            }
+        },
+        "newClub3": {
+            "name": "New Club 3",
+            "nameAR": "نادي جديد 3",
+            "description": "This is a new club for testing purposes.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/newclub3",
+                "twitter": "https://twitter.com/newclub3",
+                "linkedIn": "https://www.linkedin.com/company/newclub3"
+            }
+        },
+        "newClub4": {
+            "name": "New Club 4",
+            "nameAR": "نادي جديد 4",
+            "description": "This is another new club for testing purposes.",
+            "logo": "src/assets/Clubs/computerClub.jpg",
+            "socials": {
+                "instagram": "https://www.instagram.com/newclub4",
+                "twitter": "https://twitter.com/newclub4",
+                "linkedIn": "https://www.linkedin.com/company/newclub4"
+            }
+
+    }
+},
+    "events": {
+        "event1": {
+            "title": "Flutter Bootcamp",
+            "host": "Computer Club",
+            "date": "June 1st, 2022 at 7:00 PM",
+            "location": "Building 11",
+            "register": "Click to register",
+            "logo": "src/assets/Activities/Activity1-Logo.png",
+            "eventImg": "src/assets/Activities/Activity1-Full.jpg"
+        },
+        "event2": {
+            "title": "Chess & Board Games Tournament",
+            "host": "Entertainment Club",
+            "date": "March 1st, 2024 at 7:00 PM",
+            "location": "Building 11",
+            "register": "Click to register",
+            "logo": "src/assets/Activities/Activity2-Logo.png",
+            "eventImg": "src/assets/Activities/Activity2-Full.jpg"
+        },
+        "event3": {
+            "title": "Chess & Board Games Tournament",
+            "host": "Entertainment Club",
+            "date": "March 1st, 2024 at 7:00 PM",
+            "location": "Building 11",
+            "register": "Click to register",
+            "logo": "src/assets/Activities/Activity2-Logo.png",
+            "eventImg": "src/assets/Activities/Activity2-Full.jpg"
+        },
+        "event4": {
+            "title": "Chess & Board Games Tournament",
+            "host": "Entertainment Club",
+            "date": "March 1st, 2024 at 7:00 PM",
+            "location": "Building 11",
+            "register": "Click to register",
+            "logo": "src/assets/Activities/Activity2-Logo.png",
+            "eventImg": "src/assets/Activities/Activity2-Full.jpg"
+        },
+        "event5": {
+            "title": "Chess & Board Games Tournament",
+            "host": "Entertainment Club",
+            "date": "March 1st, 2024 at 7:00 PM",
+            "location": "Building 11",
+            "register": "Click to register",
+            "logo": "src/assets/Activities/Activity2-Logo.png",
+            "eventImg": "src/assets/Activities/Activity2-Full.jpg"
+        }
+    }
+}

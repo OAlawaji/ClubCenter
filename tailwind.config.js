@@ -12,7 +12,12 @@ export default {
         'SGreenDark': '#302c04',
         // Add your custom color here
       },
-
+      height: {
+        '1/4vh': '25vh',
+        '1/2vh': '50vh',
+        '3/4vh': '75vh',
+        '1vh': '100vh',
+      },
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],
         'almarai': ['Almarai', 'sans-serif'],
