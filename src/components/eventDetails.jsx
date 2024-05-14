@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal';
 import GroupsIcon from "@mui/icons-material/Groups";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 Modal.setAppElement('#root')
 
 function EventDetails({ isOpen, onRequestClose, eventData }) {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <Modal
       isOpen={isOpen}
@@ -20,7 +24,7 @@ function EventDetails({ isOpen, onRequestClose, eventData }) {
       text-sakry
       rounded-3xl
       outline-none
-
+      z-100
       "
       style={{
         overlay: {
@@ -45,12 +49,16 @@ function EventDetails({ isOpen, onRequestClose, eventData }) {
       }}
 
     >
+      {isLoading && <CircularProgress />}
+
       <img 
         className="object-contain min-h-1/2vh md:h-3/4vh w-auto
-
+        rounded-3xl
         " 
         src={eventData.eventImg} 
         alt="Event" 
+        onLoad={() => setIsLoading(false)}
+
       />
       <div className=" mx-4 flex flex-col justify-center w-auto md:w-1/2  min-h-1/4vh">  
       <h1

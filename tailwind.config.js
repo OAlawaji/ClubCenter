@@ -7,6 +7,7 @@ export default {
     extend: {
       colors: {
         'sakry': '#FEFFEC', 
+        'sakry-hover': '#E0E0B2',
         'SGreen': '#09160a',
         'SGreenLight': '#2c5545',
         'SGreenDark': '#302c04',
@@ -35,6 +36,8 @@ export default {
       },
       fontStyle: ['italic', 'normal'],
     },
+      scale: ['hover', 'focus'],
+      transform: ['hover', 'focus'],
   },
   plugins: [],
 }

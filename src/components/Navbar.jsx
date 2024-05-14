@@ -6,7 +6,10 @@ import GroupsIcon from "@mui/icons-material/Groups";
 import InfoIcon from "@mui/icons-material/Info";
 import LoginIcon from "@mui/icons-material/Login";
 import imageSrc from "../assets/logo.png";
-function Navbar({ isHome, returnHome }) {
+import { Link, NavLink, useLocation } from "react-router-dom";
+
+function Navbar({ showAllClubs, collapseClubs }) {
+  const location = useLocation();
   const [nav, setNav] = useState(false);
   const navRef = useRef(null);
 
@@ -30,7 +33,6 @@ function Navbar({ isHome, returnHome }) {
     };
   }, [nav]);
 
-  // APPEND A SEARCH BAR TO THE NAVBAR ****************************************************
   function scroll(event, id) {
     event.preventDefault();
     const element = document.getElementById(id);
@@ -39,66 +41,41 @@ function Navbar({ isHome, returnHome }) {
       behavior: "smooth",
     });
   }
+
   return (
     <div
-      className="flex justify-between 
-    items-center h-24 max-w-[1240px] 
-    mx-auto px-4 
-    text-sakry font-kanit font-semibold"
+      className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-sakry font-kanit font-semibold"
       ref={navRef}
     >
       <img className="h-16" src={imageSrc} />
       <ul className="hidden md:flex">
-        <a
-          href={isHome ? "#home" : "/"}
-          // href="#home"
-          onClick={(event) => {
-            if (!isHome) 
-              {returnHome(true);}
-            scroll(event, "home");
-          }}
-        >
-          <li className="p-4 hover:text-SGreenLight ">Home</li>
-        </a>
-        <a
-          href="#events"
-          onClick={(event) => {
-            scroll(event, "events");
-          }}
-        >
-          <li className="p-4 hover:text-SGreenLight">Events</li>
-        </a>
-        <a
-          href="#clubs"
-          onClick={(event) => {
-            scroll(event, "clubs");
-          }}
-        >
-          <li className="p-4 hover:text-SGreenLight">Clubs</li>
-        </a>
-        <a
-          onClick={(event) => {
-            scroll(event, "about");
-          }}
-        >
-          <li className="p-4 hover:text-SGreenLight" hover:text-SGreenLight>
-            About
-          </li>
+        <li className={`p-4 ${location.pathname === '/' ? 'text-SGreenLight' : ''}`}>
+          <NavLink to="/" onClick={collapseClubs} className="hover:text-SGreenLight">
+            Home
+          </NavLink>
+        </li>
+        {/* <a href="#events" onClick={(event) => { scroll(event, "events"); }}> */}
+          <li className="p-4 hover:text-SGreenLight">
+            Events
+            </li>
+        {/* </a> */}
+        <li className={`p-4 ${location.pathname === '/clubs' ? 'text-SGreenLight' : ''}`}>
+          <NavLink to="/clubs" onClick={showAllClubs} className="hover:text-SGreenLight">
+            Clubs
+          </NavLink>
+        </li>
+        <a onClick={(event) => { scroll(event, "about"); }}>
+          <li className="p-4 hover:text-SGreenLight">About</li>
         </a>
         <a href="sign in">
-          <li className="p-4 hover:text-SGreenLight" hover:text-SGreenLight>
-            Sign in
-          </li>
+          <li className="p-4 hover:text-SGreenLight">Sign in</li>
         </a>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       {nav && (
-        <div
-          onClick={() => setNav(false)}
-          className="fixed inset-0 bg-black opacity-50 z-40"
-        ></div>
+        <div onClick={() => setNav(false)} className="fixed inset-0 bg-black opacity-50 z-40"></div>
       )}
       <ul
         className={
@@ -107,48 +84,25 @@ function Navbar({ isHome, returnHome }) {
             : "ease-in-out duration-500 fixed right-[-100%] bottom-[-100%]"
         }
       >
-        {/* <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1> */}
-        {/* <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 transform translate-x-0' : 'ease-in-out duration-500 fixed transform translate-x-full'}>        <img className="w-80" src="src\assets\logo.png" /> */}
-        {/*  */}
-        <a
-          onClick={(event) => {
-            scroll(event, "home");
-            handleNav();
-          }}
-        >
+        <a onClick={(event) => { scroll(event, "home"); handleNav(); }}>
           <li className="p-4 border-b border-gray-600 flex flex-row space-x-2">
             <HomeIcon />
             <h2>Home</h2>
           </li>
         </a>
-        <a
-          onClick={(event) => {
-            scroll(event, "events");
-            handleNav();
-          }}
-        >
+        <a onClick={(event) => { scroll(event, "events"); handleNav(); }}>
           <li className="p-4 border-b border-gray-600 flex flex-row space-x-2">
             <FestivalIcon />
             <h2>Events</h2>
           </li>
         </a>
-        <a
-          onClick={(event) => {
-            scroll(event, "clubs");
-            handleNav();
-          }}
-        >
+        <a onClick={(event) => { scroll(event, "clubs"); handleNav(); }}>
           <li className="p-4 border-b border-gray-600 flex flex-row space-x-2">
             <GroupsIcon />
             <h2>Clubs</h2>
           </li>
         </a>
-        <a href="#about"
-                  onClick={(event) => {
-                    scroll(event, "about");
-                    handleNav();
-                  }}
-        >
+        <a href="#about" onClick={(event) => { scroll(event, "about"); handleNav(); }}>
           <li className="p-4 border-b border-gray-600 flex flex-row space-x-2">
             <InfoIcon />
             <h2>About</h2>

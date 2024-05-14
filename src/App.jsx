@@ -10,17 +10,28 @@ import Container from "./components/container.jsx";
 import Card from "./components/card.jsx";
 import Club from "./components/club.jsx"
 import AddCard from "./components/addCard.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { useParams } from 'react-router-dom';
 
+//npx json-server --watch data/db.json --port 8000
 function App() {
   const [eventsToShow, setEventsToShow] = useState(3); // num of events in the main page
   const [clubsToShow, setClubsToShow] = useState(6); // num of clubs in the main page
-  const [showContent, setShowContent] = useState(true);
+  // const [showContent, setShowContent] = useState(true);
+  
+
+  // const handleClubLoadClick = () => {
+  //   clubsArray.length > clubsToShow 
+  //   &&
+  //   setClubsToShow(clubs.length)
+
+  // };
 
   const [clubs, setClubs] = useState({});
   const [events, setEvents] = useState({});
 
   const handleFormSubmit = (eventData) => {
-    setEvents([...Object.values(events), eventData]);
+    setEvents([eventData, ...Object.values(events)]);
   };
  
   useEffect(() => {
@@ -52,20 +63,14 @@ function App() {
         <CardLoad
           full={false}
           type={"clubs"}
-          onClick={() => {
-            setClubsToShow(clubsArray.length);
-            setShowContent(false);
-          }}
+          onClick={() => setClubsToShow(clubs.length)}
           />
         ) : (
-          <CardLoad
-          full={true}
-          type={"clubs"}
-          onClick={() => {
-            setClubsToShow(6);
-            setShowContent(true);
-          }}
-          />
+<CardLoad
+  full={true}
+  type={"clubs"}
+  onClick={() => setClubsToShow(6)}
+/>
         ),
       };
       const containerContent = {
@@ -93,41 +98,26 @@ function App() {
           ),
       };
       return (
-        <>
-      <Navbar
-        isHome = {showContent}
-        returnHome = {() => setShowContent}
-      />
-
-            {/* <div>
-            <button onClick={openForm}>Open Event Form</button>
-{isFormOpen && <EventForm 
-  onSubmit={handleFormSubmit} 
-  isOpen={isFormOpen} 
-  onRequestClose={closeForm}
-/>}
-\
-    </div> */}
-      <main className="flex flex-col items-center justify-center overflow-hidden gap-16 mt-8 px-4 text-sakry font-kanit">
-        {showContent && (
-          <>
-            <Welcome />
-            <Container content={containerContent} />
-          </>
-        )}
-        <Clubs content={containerContent2} />
-
-        {/* <div className="max-w-[1248px] w-full">
-          <img src="src\assets\image.png" alt="image" className="w-full text-sakry" />
-        </div>
-        <div className="max-w-[1248px] w-full">
-          <img src="src\assets\image.png" alt="image" className="w-full text-sakry" />
-        </div> */}
-      </main>
-
-      <Footer />
-    </>
-  );
-}
+        <Router>
+          <Navbar 
+          showAllClubs={() => setClubsToShow(clubs.length)} collapseClubs={() => {setClubsToShow(6)}} />
+          <main className="flex flex-col items-center justify-center overflow-hidden gap-16 mt-8 px-4 text-sakry font-kanit">
+            <Routes>
+              <Route path='/' element={
+                <>
+                  <Welcome />
+                  <Container content={containerContent} />
+                  <Clubs content={containerContent2} />
+                </>
+              }/>
+              <Route path='/Clubs' element={
+                <Clubs content={containerContent2} />
+              }/>
+            </Routes>
+          </main>
+          <Footer />
+        </Router>
+      );
+    }
 
 export default App;

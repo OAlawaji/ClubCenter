@@ -15,7 +15,16 @@ const SocialMediaLogos = {
 
 function Club({ clubData }) {
     return (
-        <div className="min-h-0 rounded-xl sm:min-h-[200px] md:min-h-[300px] min-w-0 sm:min-w-[200px] md:min-w-[400px] xl:min-w-content relative bg-transparent group">
+        <div className="min-h-0 rounded-xl sm:min-h-[200px] md:min-h-[300px] min-w-0 sm:min-w-[200px] md:min-w-[400px] xl:min-w-content relative bg-transparent 
+        group
+
+        hover:z-50
+        "
+        style={{ transition: "transform 0.3s", cursor: "pointer" }}
+        onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.2)'}
+        onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+    
+        >
             <img
                 className="w-full h-full rounded-3xl border-2 border-transparent"
                 src={clubData.logo}

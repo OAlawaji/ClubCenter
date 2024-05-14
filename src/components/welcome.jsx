@@ -14,9 +14,10 @@ function Welcome() {
     // }, []);
 
     return (
-        <div className="max-w-[1248px] w-full flex flex-row">
-       <img src={imageSrc} className="sm:block 
+        <div className="max-w-[1248px] w-full flex flex-row" >
+       <img src={imageSrc} className=" 
        hidden
+       sm:block
        logo
        " alt="image" />  
         <div className="flex flex-col 
