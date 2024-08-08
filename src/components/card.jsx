@@ -38,7 +38,7 @@ function Card({ eventData }) {
   <div className="w-full h-48 md:h-64 overflow-hidden rounded-3xl md:rounded-t-3xl">
     <img
       className="w-full h-full object-cover"
-      src={eventData.eventImg}
+      src={eventData.logo}
       alt="Activity logo"
     />
   </div>

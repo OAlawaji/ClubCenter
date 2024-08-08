@@ -11,12 +11,14 @@ import Card from "./components/card.jsx";
 import Club from "./components/club.jsx"
 import AddCard from "./components/addCard.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { clubs, events } from "./db.js";
 // import { useParams } from 'react-router-dom';
 
 //npx json-server --watch data/db.json --port 8000
 function App() {
-  const [eventsToShow, setEventsToShow] = useState(3); // num of events in the main page
+  const [eventsToShow, setEventsToShow] = useState(4); // num of events in the main page
   const [clubsToShow, setClubsToShow] = useState(6); // num of clubs in the main page
+  const [showContent, setShowContent] = useState(true);
   // const [showContent, setShowContent] = useState(true);
   
 
@@ -27,30 +29,31 @@ function App() {
 
   // };
 
-  const [clubs, setClubs] = useState({});
-  const [events, setEvents] = useState({});
+  const clubsArray = Object.values(clubs);
+  const eventsArray = Object.values(events);
+  // const [clubs, setClubs] = useState({});
+  // const [events, setEvents] = useState({});
 
   const handleFormSubmit = (eventData) => {
     setEvents([eventData, ...Object.values(events)]);
   };
  
-  useEffect(() => {
-    Promise.all([
-      fetch('http://localhost:8000/clubs').then(res => res.json()),
-      fetch('http://localhost:8000/events').then(res => res.json())
-    ])
-    .then(([clubsData, eventsData]) => {
-      // Update the clubs state with the fetched data
-      setClubs(clubsData);
-      setEvents(eventsData);
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const clubsData = await require('./data/db.json').clubs;
+  //       const eventsData = await require('./data/db.json').events;
 
-  const clubsArray = Object.values(clubs);
-  const eventsArray = Object.values(events);
+  //       setClubs(clubsData);
+  //       setEvents(eventsData);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
+
+  //   fetchData();
+  // }, []);
+
 
   const containerContent2 = {
     titleArabic: "أندية الجامعة",
