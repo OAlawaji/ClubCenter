@@ -3,14 +3,6 @@ import react from '@vitejs/plugin-react';
 
 
 export default defineConfig({
+  base: '/ClubCenter/', // IMPORTANT: include the trailing slash
   plugins: [react()],
-  base: '/ClubCenter/',
-  build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html',
-        notFound: 'index.html', 
-      }
-    }
-  }
 });
