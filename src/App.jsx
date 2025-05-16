@@ -101,7 +101,7 @@ function App() {
           ),
       };
       return (
-        <Router>
+  <Router basename="/ClubCenter">
           <Navbar 
           showAllClubs={() => setClubsToShow(clubs.length)} collapseClubs={() => {setClubsToShow(6)}} />
           <main className="flex flex-col items-center justify-center overflow-hidden gap-16 mt-8 px-4 text-sakry font-kanit">
